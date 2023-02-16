@@ -1,6 +1,8 @@
 project:
   type: website
-  output-dir: dist  
+  resources:
+    - fonts/*
+  output-dir: dist
 
 website:
   title: "GoogleFontIssue"
@@ -12,9 +14,6 @@ website:
 
 format:
   html:
-    theme: [darkly, custom]
+    theme: [darkly, custom.scss]
     css: styles.css
     toc: true
-
-
-
